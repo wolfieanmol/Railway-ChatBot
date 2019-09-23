@@ -1,0 +1,63 @@
+intents = {
+  'intents': 
+    [
+        {'context_set': '',
+         'patterns': ['Hi', 'How are you', 'Is anyone there?', 'Hello', 'Good day', 'sup'],
+         'responses': ['Hello, thanks for visiting','Good to see you again','Hi there, how can I help?'],
+         'tag': 'greeting'
+         },
+
+
+        {
+        'patterns': ['Bye', 'See you later', 'Goodbye'],
+         'responses': ['See you later, thanks for visiting','Have a nice day','Bye! Come back again soon.'],
+         'tag': 'goodbye'
+         },
+
+
+        {
+        'patterns': ['Thanks', 'Thank you', "That's helpful"],
+         'responses': ['Happy to help!', 'Any time!', 'My pleasure'],
+         'tag': 'thanks'
+         },
+
+
+        {
+        'patterns': ["I want to book a train","Can you reserve a train ticket for me?","I need a ticket to jaipur today", "Have to travel to jodhpur for 2 days", "show me trains for Chennai on 17th august.", "Please book a journey to Haridwar for 3 people", "I need to travel to shimla", "I'm looking for a train from New Delhi to Ahmedabad on the 21th of this month.", "Hi book me a ticket for kolkata.", "me and my friends are going for a vacation to goa", "I need to go to hyderabad to attend my sister's wedding", "My dad needs to visit amritsar on 17 january", "I need to travel to Mumbai in order to attend a meeting", "I need 3 3rd AC resevations on july 28 to Trivendram", "Have a meeting tommorow in pune", "We are planning a vacation", "I need to get to Guwhati.", "Me and my brother are visiting our parents.", "book my ticket", "ticket booking", "book ticket", "booking", "I have to book a ticket for my friend", "Book ticket for my friend", "Apply for a train reservation", "Get me a train ticket please", "Going to mumbai", "Need a ticket", "shifting from delhi to malali via what", "pass me a ticket", "best gift for vacation", "I'm planning a trip", "I am planning a trip", "send me to delhi"],
+         'responses': None,
+         'tag': "train_reservation"
+         },
+
+
+        {
+
+        'patterns': ["Hey what's my pnr status", "I want to know status of my pnr", "I want to know status of pnr 7892365140", "tell me pnr of train", "Is my ticket booked.", "Do you know my pnr status?", "What's my pnr number status", "i want info of 6598741330", "What do you know of my pnr", "i need to know info of pnr no 4679132580", "My pnr status"],
+         'responses': None,
+         'tag': "pnr_status"
+
+         },
+
+
+        {
+        'patterns': ["I need to know the status of the train that i booked.", "what is my train status", "What is the schedule of my train?", "do you know the time table of train 18401", "i need a time table of ranikhet express that my broter is travelling in", "What information do you have on train number 15364", "Do you know where shatabdi express is", "give me a schedule of train i booked", "what is the status of 16598", "can you look for train time table?", "show me the schedule of the train that I booked.", "What time is my train"],
+         'responses': None,
+         'tag': "train_schedule"
+         },
+
+
+        {
+        'patterns': ["yes", "Yeah.", "yep", "That is correct", "That's my train", "That is correct", "yeahhh, its right", "you got it", "that's my pnr"],
+         'responses': None,
+         'tag': 'affirmation'
+         },
+
+
+        {
+        'context_set': 'food',
+         'patterns': ["no", "nope","wrong", "you have it wrong", "That's not what I meant", "i meant something else", "bruh it's not right", "noooo", "you didn't understand", "you didn't understand what I meant"],
+         'responses': None,
+         'tag': 'negation'
+         }
+
+    ]
+         }
